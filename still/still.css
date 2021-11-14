@@ -19,16 +19,15 @@ a {
   .frame {
     display: none !important;
   }
+}
+
+@media screen and (max-width: 550px) {
   .icon {
     display: none !important;
   }
 }
-
 #navbar-a li a:hover {
   color: black !important;
   font-weight: 400;
 }
 /*# sourceMappingURL=still.css.map */
-.color {
-  color: #445b78 !important;
-}

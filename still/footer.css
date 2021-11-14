@@ -1,0 +1,7 @@
+footer > #fo1 > #fo2 > .col-lg-2 > ul > li > a {
+  color: #445b78 !important;
+  transition: 0.5s !important;
+}
+footer > #fo1 > #fo2 > .col-lg-2 > ul > li > a:hover {
+  font-weight: 700;
+}
