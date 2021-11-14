@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: #2d4665 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer !important;
+}
+
+#navbar-a li a {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+@media screen and (max-width: 600px) {
+  .frame {
+    display: none !important;
+  }
+  .icon {
+    display: none !important;
+  }
+}
+
+#navbar-a li a:hover {
+  color: black !important;
+  font-weight: 400;
+}
+/*# sourceMappingURL=still.css.map */
