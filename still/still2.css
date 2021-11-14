@@ -1,0 +1,15 @@
+#cards #cards1 #card-item {
+  border-radius: 20px !important;
+}
+
+#cards #cards1 #card-item .card-body img {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#cards #cards1 #card-item .card-body img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+/*# sourceMappingURL=still2.css.map */

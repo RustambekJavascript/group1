@@ -1,0 +1,16 @@
+#cards {
+  #cards1 {
+    #card-item {
+      border-radius: 20px !important;
+      .card-body {
+        img {
+          transition: 0.5s ease;
+          cursor: pointer;
+          &:hover {
+            transform: translateY(-10px);
+          }
+        }
+      }
+    }
+  }
+}
