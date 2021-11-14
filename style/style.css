@@ -1,0 +1,24 @@
+p {
+  color: #445B78 !important;
+}
+
+.img1 {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .img1:hover {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img1:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+/*# sourceMappingURL=style.css.map */

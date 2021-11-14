@@ -1,0 +1,26 @@
+@import 'color';
+
+p{
+    color: $color-main1 !important;
+}
+
+.img1{
+    transition: .5s ease;
+    cursor: pointer; 
+}
+
+@media screen and (min-width:769px) {
+    .img1{
+        &:hover{
+            transform: translateX(10px);
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .img1{
+        &:hover{
+            transform: translateY(-10px);
+        }
+    }
+}
